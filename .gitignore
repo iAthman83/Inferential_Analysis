@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+
+# Ignore all Excel and CSV files in any directory
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+*.csv
+*.ods
