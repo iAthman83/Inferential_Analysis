@@ -1,3 +1,4 @@
+rm(list = ls())
 # -----------------------------
 # load packages
 # -----------------------------
@@ -225,6 +226,8 @@ merged_data <- bind_rows(
   raw_data_jan26,
   raw_data_feb26
 )
+
+# write.xlsx(merged_data, "./combined_JMMI_data.xlsx")
 
 final_dataset <- left_join(
   merged_data,
